@@ -12,6 +12,8 @@
 		05D4AD932AE033B3009C3FC9 /* PascalCalculatorPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4AD922AE033B3009C3FC9 /* PascalCalculatorPodTests.swift */; };
 		05D4AD942AE033B3009C3FC9 /* PascalCalculatorPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D4AD862AE033B3009C3FC9 /* PascalCalculatorPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05D4AD9F2AE033C4009C3FC9 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4AD9E2AE033C4009C3FC9 /* Calculator.swift */; };
+		05D4ADA12AE03C44009C3FC9 /* PascalCalculatorPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 05D4ADA02AE03C44009C3FC9 /* PascalCalculatorPod.podspec */; };
+		05D4ADA22AE03C44009C3FC9 /* PascalCalculatorPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 05D4ADA02AE03C44009C3FC9 /* PascalCalculatorPod.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,7 @@
 		05D4AD8D2AE033B3009C3FC9 /* PascalCalculatorPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PascalCalculatorPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D4AD922AE033B3009C3FC9 /* PascalCalculatorPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalCalculatorPodTests.swift; sourceTree = "<group>"; };
 		05D4AD9E2AE033C4009C3FC9 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		05D4ADA02AE03C44009C3FC9 /* PascalCalculatorPod.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = PascalCalculatorPod.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 		05D4AD852AE033B3009C3FC9 /* PascalCalculatorPod */ = {
 			isa = PBXGroup;
 			children = (
+				05D4ADA02AE03C44009C3FC9 /* PascalCalculatorPod.podspec */,
 				05D4AD9D2AE033BB009C3FC9 /* Sources */,
 				05D4AD862AE033B3009C3FC9 /* PascalCalculatorPod.h */,
 				05D4AD872AE033B3009C3FC9 /* PascalCalculatorPod.docc */,
@@ -188,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D4ADA12AE03C44009C3FC9 /* PascalCalculatorPod.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D4ADA22AE03C44009C3FC9 /* PascalCalculatorPod.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
